@@ -1,0 +1,16 @@
+# API 키 등 비밀 정보 (절대 올리지 않음)
+.env
+.env.*
+.streamlit/secrets.toml
+
+# 실습 데이터와 결과 파일
+mixed/
+sorted/
+output/
+*.zip
+*.exe
+
+# 파이썬이 자동으로 만드는 파일
+__pycache__/
+*.pyc
+.venv/
